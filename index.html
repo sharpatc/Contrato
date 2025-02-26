@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Noviazgo</title>
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes heartBeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            animation: fadeIn 1.5s ease-out;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            animation: fadeIn 2s ease-out;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #d6336c;
+            font-family: 'Georgia', serif;
+            animation: heartBeat 1.5s infinite;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .firma {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .firma div {
+            text-align: center;
+            width: 45%;
+        }
+        .firma input {
+            width: 100%;
+            padding: 10px;
+            font-family: 'Cursive', sans-serif;
+            font-size: 1.2em;
+            border: none;
+            border-bottom: 2px solid #333;
+            text-align: center;
+            outline: none;
+        }
+        .firma-linea {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        .frase-final {
+            text-align: center;
+            font-style: italic;
+            margin-top: 30px;
+            color: #d6336c;
+            font-size: 1.2em;
+            animation: fadeIn 3s ease-out;
+        }
+        .corazon {
+            text-align: center;
+            font-size: 3em;
+            color: #ff6b81;
+            animation: heartBeat 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="corazon">❤</div>
+        <h1>Contrato de Noviazgo</h1>
+        <p>Por medio del contrato presente ambas partes de la relación que se especifican como la novia <strong>Itzel Yamira Cerda Castillo</strong> y el novio <strong>Anel Alonso Jimenez Dampstear</strong> se comprometen a cumplir con los siguientes términos:</p>
+
+        <ul>
+            <li>Ser honestos en todo momento.</li>
+            <li>Hablar cada desacuerdo o incomodidad.</li>
+            <li>Respetar y dar a respetar a su pareja estando o no él/ella presente.</li>
+            <li>Hacerse reír mucho.</li>
+            <li>Hacerse sentir especiales.</li>
+            <li>No darse por hecho.</li>
+            <li>Mucho sexo (que ambas partes disfruten).</li>
+            <li>Si ya no siente atracción por el otro una de las partes, hablarlo claramente.</li>
+            <li>Planear viajes juntos.</li>
+            <li>No terminar por tonterías.</li>
+            <li>En caso de pelea, arreglar las cosas en el momento adecuado y las veces que sea necesario.</li>
+        </ul>
+
+        <p>Si ambas partes están de acuerdo con los términos y no hay objeciones, tendrán que firmar el documento presente. Aclarando la fecha de inicio de la relación el <strong>03 de marzo del 2025</strong>, esperando la renovación del mismo en exactitud de un año, siendo este el <strong>03 de marzo del 2026</strong>.</p>
+
+        <p class="frase-final">“Porque a esta llegamos solitos, pero nos vamos a ir juntos”</p>
+
+        <div class="firma">
+            <div>
+                <input type="text" placeholder="Firma de Itzel Yamira Cerda Castillo">
+                <p>Firma de la Novia</p>
+            </div>
+            <div>
+                <input type="text" placeholder="Firma de Anel Alonso Jimenez Dampstear">
+                <p>Firma del Novio</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
